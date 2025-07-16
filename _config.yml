@@ -1,0 +1,17 @@
+title: "Tennis Actus"
+email: "ton.email@example.com"
+description: "Les dernières actualités, résultats et analyses du tennis mondial, ATP et WTA."
+baseurl: "/tennis-actus"
+url: "https://tennisdaily.github.io" # remplace "tonpseudo" par ton pseudo GitHub
+
+remote_theme: mmistakes/minimal-mistakes@4.24.2
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-include-cache
+
+paginate: 5
+paginate_path: "/page:num/"
