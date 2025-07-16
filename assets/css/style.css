@@ -1,0 +1,68 @@
+/* Style de base pour le menu déroulant */
+.menu-deroulant ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: #004080;
+  display: flex;
+  font-family: Arial, sans-serif;
+}
+
+.menu-deroulant li {
+  position: relative;
+}
+
+.menu-deroulant > ul > li {
+  margin-right: 20px;
+}
+
+.menu-deroulant a {
+  display: block;
+  padding: 10px 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.menu-deroulant a:hover {
+  background: #0066cc;
+}
+
+.menu-deroulant .dropdown:hover .sous-menu {
+  display: block;
+}
+
+.sous-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #0066cc;
+  min-width: 150px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  z-index: 1000;
+}
+
+.sous-menu li {
+  margin: 0;
+}
+
+.sous-menu a {
+  padding: 10px;
+  color: white;
+  font-weight: normal;
+}
+
+.sous-menu a:hover {
+  background: #004080;
+}
+
+/* Style pour le contenu principal */
+main {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  max-width: 900px;
+  margin: 0 auto;
+}
