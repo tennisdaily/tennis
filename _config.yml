@@ -3,3 +3,4 @@ description: "Toute la passion du tennis en un seul site : news, classements et 
 baseurl: "/tennis-actus"
 url: "https://tonpseudo.github.io"  # remplace ici par ton identifiant GitHub
 theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes@4.24.2
