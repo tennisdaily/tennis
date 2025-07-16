@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>{{ page.title }} - {{ site.title }}</title>
+  <link rel="stylesheet" href="/assets/css/style.css" />
+</head>
+<body>
+
+  <nav class="menu-deroulant">
+    <ul>
+      <li><a href="/">Accueil</a></li>
+      <li class="dropdown">
+        <a href="#">Tennis</a>
+        <ul class="sous-menu">
+          <li><a href="/tournois">Tournois</a></li>
+          <li><a href="/joueurs">Joueurs</a></li>
+          <li><a href="/classements">Classements</a></li>
+        </ul>
+      </li>
+      <li><a href="/contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    {{ content }}
+  </main>
+
+</body>
+</html>
