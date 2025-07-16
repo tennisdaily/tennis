@@ -4,7 +4,8 @@ description: "Les dernières actualités, résultats et analyses du tennis mondi
 baseurl: "/tennis-actus"
 url: "https://tennisdaily.github.io" # remplace "tonpseudo" par ton pseudo GitHub
 
-remote_theme: mmistakes/minimal-mistakes@4.24.2
+remote_theme: mmistakes/minimal-mistakes@master
+
 
 plugins:
   - jekyll-feed
