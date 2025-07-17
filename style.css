@@ -8,12 +8,13 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #f6f6f6;
+  color: #222;
 }
 
 header {
-  background-color: #222;
-  color: white;
+  background-color: white;
   padding: 10px 20px;
+  border-bottom: 1px solid #ddd;
 }
 
 .header-container {
@@ -27,64 +28,45 @@ header {
 }
 
 nav {
-  flex-grow: 1;
   margin-left: 40px;
+  flex-grow: 1;
 }
 
 .menu {
   list-style: none;
   display: flex;
+  gap: 25px;
+  justify-content: flex-end;
   align-items: center;
-  gap: 30px;
 }
 
-.menu li {
-  position: relative;
-}
-
-.menu > li > a {
-  color: white;
+.menu li a {
+  color: #222;
   text-decoration: none;
-  padding: 10px;
-  display: block;
-}
-
-.menu li:hover > a {
-  background-color: #333;
-  border-radius: 5px;
-}
-
-/* Submenu (dropdown) */
-.submenu {
-  display: none;
-  position: absolute;
-  top: 40px;
-  left: 0;
-  background-color: #444;
-  list-style: none;
-  padding: 0;
-  min-width: 160px;
+  padding: 10px 12px;
   border-radius: 4px;
-  z-index: 10;
+  font-weight: bold;
 }
 
-.submenu li a {
-  padding: 10px;
-  color: white;
-  display: block;
-  text-decoration: none;
+.menu li a:hover {
+  background-color: #f0f0f0;
 }
 
-.submenu li a:hover {
-  background-color: #555;
-}
-
-.dropdown:hover .submenu {
-  display: block;
-}
-
-/* Main content */
 main {
   padding: 30px;
 }
 
+/* Couleurs pour les titres */
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #DAA520;
+}
+
+h2, h3 {
+  color: #444;
+}
+
+.highlight {
+  color: #000;
+}
