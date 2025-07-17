@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cazaux impressione à Gstaad</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <img src="logo.png" alt="Logo Tout le Tennis" class="logo" />
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="actualites.html">Actualités</a></li>
+          <li><a href="conseils.html">Conseils</a></li>
+          <li><a href="a-propos.html">À propos</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h1>Cazaux impressionne à Gstaad</h1>
+    <p>Ceci est le contenu de mon premier article sur le tennis. Tu peux écrire tout ce que tu veux ici !</p>
+  </main>
+</body>
+</html>
