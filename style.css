@@ -53,7 +53,12 @@ nav {
 }
 
 main {
+ 
   padding: 30px;
+  max-width: 800px;
+  margin: 0 auto; /* ✅ centre le bloc */
+  text-align: center; /* ✅ centre le texte à l'intérieur */
+
 }
 
 /* Couleurs pour les titres */
