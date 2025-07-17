@@ -75,3 +75,37 @@ h2, h3 {
 .highlight {
   color: #000;
 }
+
+
+.formulaire-contact {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 1.1em;
+}
+
+.formulaire-contact input,
+.formulaire-contact textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.formulaire-contact button {
+  width: 100%;
+  padding: 12px;
+  font-size: 1.1em;
+  background-color: #daa520;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.formulaire-contact button:hover {
+  background-color: #c4941c;
+}
