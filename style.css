@@ -109,3 +109,17 @@ h2, h3 {
 .formulaire-contact button:hover {
   background-color: #c4941c;
 }
+
+
+.titre-article {
+  font-size: 1.5em;
+  text-decoration: none;
+  color: #222;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.titre-article:hover {
+  color: #daa520; /* couleur dorée au survol */
+}
