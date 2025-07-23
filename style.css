@@ -1,4 +1,4 @@
-/* Reset */
+ /* Reset */
 * {
   margin: 0;
   padding: 0;
@@ -53,21 +53,17 @@ nav {
 }
 
 main {
- 
   padding: 30px;
   max-width: 800px;
-  margin: 0 auto; /* ✅ centre le bloc */
-  text-align: center; /* ✅ centre le texte à l'intérieur */
-
+  margin: 0 auto;
+  text-align: center;
 }
 
-/* Couleurs pour les titres */
 h1 {
-  font-size: 1.9em; /* taille réduite mais encore bien visible */
+  font-size: 1.9em;
   margin-bottom: 10px;
   color: #1a1a1a;
 }
-
 
 h2, h3 {
   color: #444;
@@ -76,7 +72,6 @@ h2, h3 {
 .highlight {
   color: #000;
 }
-
 
 .formulaire-contact {
   max-width: 600px;
@@ -111,7 +106,6 @@ h2, h3 {
   background-color: #c4941c;
 }
 
-
 .titre-article {
   font-size: 1.5em;
   text-decoration: none;
@@ -122,18 +116,48 @@ h2, h3 {
 }
 
 .titre-article:hover {
-  color: #daa520; /* couleur dorée au survol */
+  color: #daa520;
 }
 
-
+/* Article date style */
 .date-pub {
   text-align: right;
   font-size: 0.95em;
   color: #888;
-  margin-top: 40px;
+  margin-top: 4px;
   font-style: italic;
 }
 
-
-
-
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+  .header-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .logo {
+    height: 40px;
+    margin-bottom: 10px;
+  }
+  nav {
+    margin-left: 0;
+    width: 100%;
+  }
+  .menu {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  main {
+    padding: 10px;
+    max-width: 100%;
+  }
+  .formulaire-contact {
+    max-width: 100%;
+    font-size: 1em;
+  }
+  .titre-article {
+    font-size: 1.2em;
+  }
+}
